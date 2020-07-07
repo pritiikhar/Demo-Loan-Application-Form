@@ -1,0 +1,84 @@
+<!DOCKTYPE HTML>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title> Demo Bank Loan Application</title>
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Varela+Round&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+
+<header>Apply For Personal Loan </header>
+<div id = "content">
+
+<form id="form" action = "test.html" method="POST" >
+
+<table class = "table">
+
+<tr><td>
+    <label for="city">City:</label></td>
+    <td><input id="city" name="city" type="text" required></td>
+</tr> 
+
+<tr><td>
+<label for="pan">Pan No:</label></td>
+<td><input id="pan" name="pan" type="text" maxlength = "10" required></td>
+</tr>
+<tr><td>
+<label for="name">Full Name:</label></td>
+<td> <input id="name" name="name" type="text" required maxlength = "140" required></td>
+</tr>
+
+<tr><td>
+<label for="pan">E-mail:</label></td>
+<td><input id="email" name="email" type="email" maxlength = "255" required>   
+</td></tr>
+
+<tr><td>
+<label for="mobile">Mobile No.:</label></td>
+<td>
+<input type="text" id="countrycode" value="+91" size = "1" disabled > 
+<input id="mobile" name="mobile" type="text" maxlength = "10" size = "15" required></td>
+</tr>
+ 
+<tr><td>
+
+<td><input id="otp" name="otp" type = "hidden" maxlength = "4" size = 6 placeholder = "Enter OTP" required>   
+</td></tr>
+
+</table>
+
+
+<div class = "allButtons">
+<button type="submit" id = "getOtpB"  >Get OTP</button>
+
+
+<button type="button" id = "submitB" style = "display: none"  >Submit</button>
+
+<button type="reset" id = "reset" >Reset</button> </div>
+
+
+<p id = "timer" style = "display: inline-block"> </p>
+<button type = "button"  id = "link" type = "button" onclick = "sendOtp(); btnclick()"> Resend OTP</button> 
+
+
+
+<div id = "error" class = "error" ></div>
+
+</form>
+ 
+
+<div>
+
+<div id = "newScreen"> Your appliction is successfully SUBMITTED. <br> Return to <b><a href = index.html> HOME </a></b> </div>
+    
+<script src = "main.js">
+</script>
+</body>
+</html>

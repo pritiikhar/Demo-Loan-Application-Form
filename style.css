@@ -1,0 +1,102 @@
+input[type="text"]#mobile {
+-webkit-appearance: none!important;
+    border: 1px solid;
+    border-left: 0px;
+    outline: none;
+margin-left: -10px;
+}
+
+input[type="text"]#countrycode{
+border: 1px solid black;
+border-right: 0px;
+outline: none;
+background: white;
+
+}
+
+body{
+background-color: #ebfaef;
+margin:auto;
+
+}
+
+header {
+
+font-size: 180%;
+font-weight: bold;
+margin-left:40%;
+margin-top:5%;
+font-family: 'Coda Caption', sans-serif;
+color: #1c0157;
+
+}
+
+.table {
+margin: auto;
+margin-top:5%;
+padding: 20px;
+
+
+}
+
+th,
+td {
+  width: 120px;
+  font-weight:bold;
+  font-size: 130%;
+  padding: 5px;
+}
+
+
+.allButtons{
+margin-left: 40%;
+}
+
+button {
+margin-left:5%;
+padding: 1%;
+}
+
+.error {
+padding: 2%;
+margin-left:40%;
+margin-right:auto;
+color: red;
+
+
+}
+#submitB{
+
+margin-left: 32%;
+
+}
+
+#link{
+
+margin-left:33%;
+border: 0px;
+background-color: white;
+
+
+}
+
+#timer {
+
+margin-left: 34%;
+
+}
+
+#content{
+background-color: white;
+margin-left: 20%;
+margin-right: 20%;
+font-family: 'Varela Round', sans-serif;
+height: 70%;
+
+}
+
+
+#newScreen{
+text-align: center;
+
+}
